@@ -1,0 +1,28 @@
+nav{
+    text-align: center;
+    ul{
+    margin-left: 0;
+    list-style: none;
+    li{
+        margin: 10px 0;
+        display: inline-block;
+        a
+        {
+            &:link, &:visited { 
+            margin: 0 10px;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+            transition: all .8s;
+            }
+            &:hover{
+            border-bottom: 1px solid;
+            } 
+            &:active{
+                color: #e48902;
+                border-color: #e48902;
+            }
+        }
+    }
+}
+}
