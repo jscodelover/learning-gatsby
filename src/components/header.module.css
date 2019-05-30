@@ -1,0 +1,33 @@
+.header{
+    padding: 1rem 0 3rem;
+}
+
+.ul{
+    margin: 0;
+    list-style: none;
+}    
+.li{
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.link{
+    color:inherit;
+}
+
+.link:link, .link:visited { 
+    margin: 0 10px;
+    font-size: .9rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .8s;
+    }
+
+.link:hover{
+    border-bottom: 1px solid;
+} 
+
+.link:active, .active{
+    color: #e48902;
+    border-bottom: 1px solid #e48902;
+}
