@@ -44,6 +44,24 @@ function Header() {
               About Me
             </Link>
           </li>
+          <li className={StyleClass.li}>
+            <Link
+              className={StyleClass.link}
+              activeClassName={StyleClass.active}
+              to="/example"
+            >
+              GraphQl Example
+            </Link>
+          </li>
+          <li className={StyleClass.li}>
+            <Link
+              className={StyleClass.link}
+              activeClassName={StyleClass.active}
+              to="/gallery"
+            >
+              Gallery
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

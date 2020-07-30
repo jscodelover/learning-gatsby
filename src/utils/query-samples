@@ -1,0 +1,20 @@
+// query arguments : limit:1, sort:{}, filter:{}, skip:2
+allFile
+{
+  allFile(filter: {relativeDirectory: {eq: "copy"}}, sort: {fields: size}) {
+    totalCount
+    nodes {
+      absolutePath
+      size
+      birthTime
+    }
+  }
+}
+
+file
+{
+  file(relativePath: {eq: "image_1.jpg"}) {
+    size
+    name
+  }
+}
