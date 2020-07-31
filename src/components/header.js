@@ -62,6 +62,15 @@ function Header() {
               Gallery
             </Link>
           </li>
+          <li className={StyleClass.li}>
+            <Link
+              className={StyleClass.link}
+              activeClassName={StyleClass.active}
+              to="/product"
+            >
+              Products
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
