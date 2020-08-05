@@ -20,7 +20,7 @@ function Product({ data }) {
 export default Product
 
 export const query = graphql`
-  query MyQuery {
+  query {
     products: allContentfulProduct {
       nodes {
         slug
