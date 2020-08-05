@@ -4,6 +4,8 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+//require(dotenv).config();
+
 module.exports = {
   siteMetadata: {
     title: "Learning Gatsby",
@@ -28,6 +30,7 @@ module.exports = {
       options: {
         spaceId: `gmjrsdk40ris`,
         // Learn about environment variables: https://gatsby.dev/env-vars
+        //process.env.accessToken
         accessToken: "x_9x9kTtOA0Y_k53hOCmzvE9wlhKy35ndKqgq8Wmg1M",
       },
     },
