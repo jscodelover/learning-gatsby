@@ -18,6 +18,14 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `md`,
+        path: `${__dirname}/src/md`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

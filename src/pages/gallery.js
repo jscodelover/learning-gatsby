@@ -4,7 +4,6 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 
 function Gallery({ data }) {
-  console.log(data)
   return (
     <Layout>
       <h2>Gallery</h2>

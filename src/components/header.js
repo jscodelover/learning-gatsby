@@ -71,6 +71,15 @@ function Header() {
               Products
             </Link>
           </li>
+          <li className={StyleClass.li}>
+            <Link
+              className={StyleClass.link}
+              activeClassName={StyleClass.active}
+              to="/md"
+            >
+              MD
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
